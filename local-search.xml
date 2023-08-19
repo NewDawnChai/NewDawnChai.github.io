@@ -4,6 +4,44 @@
   
   
   <entry>
+    <title>araska-tower-nuked</title>
+    <link href="/2023/08/20/araska-tower-nuked/"/>
+    <url>/2023/08/20/araska-tower-nuked/</url>
+    
+    <content type="html"><![CDATA[<h1 id="Arasaka"><a href="#Arasaka" class="headerlink" title="Arasaka"></a>Arasaka</h1><h2 id="At-2077"><a href="#At-2077" class="headerlink" title="At 2077"></a>At 2077</h2><img src="/2023/08/20/araska-tower-nuked/2077.png" class="" width="2077"><p><br><br><br><br><br></p><h2 id="At-2023"><a href="#At-2023" class="headerlink" title="At 2023"></a>At 2023</h2><img src="/2023/08/20/araska-tower-nuked/2023.jpg" class="" width="2023">]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>CyberPunk2077</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>js学习笔记2</title>
+    <link href="/2023/08/19/js%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B02/"/>
+    <url>/2023/08/19/js%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B02/</url>
+    
+    <content type="html"><![CDATA[<p>继上篇</p><h1 id="Built-in-Objects-内置对象"><a href="#Built-in-Objects-内置对象" class="headerlink" title="Built-in Objects  内置对象"></a>Built-in Objects  内置对象</h1><p>js里面还有很多的内置函数，这些函数都可以用<code>console</code>调用，以及后来的自己编写的函数。<br><br>一个对象<code>object</code>通常包含多个函数<br><br>例如对象<code>math</code></p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title class_">Math</span>.<span class="hljs-title function_">random</span>());<span class="hljs-comment">//输出一个随机的数到控制台</span><br></code></pre></td></tr></table></figure><p>若想要输出一个范围内的随机数，可以采用以下的方法</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs js"><span class="hljs-title class_">Math</span>.<span class="hljs-title function_">random</span>() * <span class="hljs-number">50</span>;<span class="hljs-comment">//0-50</span><br></code></pre></td></tr></table></figure><p>上面这两个例子都是输出一个随机的浮点数，但你想要的是一个整数呢</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs js"><span class="hljs-title class_">Math</span>.<span class="hljs-title function_">floor</span>();<span class="hljs-comment">//这个函数的作用是取整</span><br></code></pre></td></tr></table></figure><p>当你想要去一个0-50的随机的整数时</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-title class_">Math</span>.<span class="hljs-title function_">floor</span>(<span class="hljs-title class_">Math</span>.<span class="hljs-title function_">random</span>() * <span class="hljs-number">50</span>)); <span class="hljs-comment">//虽然看起来有点怪</span><br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>Javascript</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>js学习笔记1</title>
     <link href="/2023/08/18/js%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B01/"/>
     <url>/2023/08/18/js%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B01/</url>
