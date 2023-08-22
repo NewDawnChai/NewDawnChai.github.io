@@ -18,22 +18,24 @@
   <meta name="author" content="Dream_Chai/NewDawn/Alleycat">
   <meta name="keywords" content="">
   
-    <meta name="description" content="Variables 变量根据codecademy的描述，在js里你能对变量完成以下操作 12345Create a variable with a descriptive name.Store or update information stored in a variable.Reference or “get” information stored in a variable. 分别是创建一个">
+    <meta name="description" content="codecademy上面还有几次练习和测试，只要认真学习了前面的课程，这些练习都是有手就会的，所以我没有在blog里赘述 ES6这里附上原文。 123456789Ever heard of the term “ES6” and wondered what it’s about? Read this article to read and find out!You might have seen t">
 <meta property="og:type" content="article">
-<meta property="og:title" content="js学习笔记3">
-<meta property="og:url" content="http://example.com/2023/08/19/js%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B03/index.html">
+<meta property="og:title" content="js学习笔记4">
+<meta property="og:url" content="http://example.com/2023/08/21/js%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B04/index.html">
 <meta property="og:site_name" content="Hi,这里是拂晓的个人博客">
-<meta property="og:description" content="Variables 变量根据codecademy的描述，在js里你能对变量完成以下操作 12345Create a variable with a descriptive name.Store or update information stored in a variable.Reference or “get” information stored in a variable. 分别是创建一个">
+<meta property="og:description" content="codecademy上面还有几次练习和测试，只要认真学习了前面的课程，这些练习都是有手就会的，所以我没有在blog里赘述 ES6这里附上原文。 123456789Ever heard of the term “ES6” and wondered what it’s about? Read this article to read and find out!You might have seen t">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-08-19T12:34:48.000Z">
-<meta property="article:modified_time" content="2023-08-19T15:29:18.000Z">
+<meta property="og:image" content="http://example.com/2023/08/21/js%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B04/timeline.svg">
+<meta property="article:published_time" content="2023-08-21T12:34:48.000Z">
+<meta property="article:modified_time" content="2023-08-22T06:40:46.454Z">
 <meta property="article:author" content="Dream_Chai&#x2F;NewDawn&#x2F;Alleycat">
 <meta property="article:tag" content="Javascript">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://example.com/2023/08/21/js%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B04/timeline.svg">
   
   
   
-  <title>js学习笔记3 - Hi,这里是拂晓的个人博客</title>
+  <title>js学习笔记4 - Hi,这里是拂晓的个人博客</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -228,7 +230,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="js学习笔记3"></span>
+            <span id="subtitle" data-typed-text="js学习笔记4"></span>
           
         </div>
 
@@ -244,8 +246,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-08-19 20:34" pubdate>
-          2023年8月19日 晚上
+        <time datetime="2023-08-21 20:34" pubdate>
+          2023年8月21日 晚上
         </time>
       </span>
     
@@ -256,7 +258,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          3k 字
+          3.6k 字
         
       </span>
     
@@ -267,7 +269,7 @@
         
         
         
-          26 分钟
+          30 分钟
         
       </span>
     
@@ -312,41 +314,22 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">js学习笔记3</h1>
+            <h1 id="seo-header">js学习笔记4</h1>
             
             
               <div class="markdown-body">
                 
-                <h1 id="Variables-变量"><a href="#Variables-变量" class="headerlink" title="Variables 变量"></a>Variables 变量</h1><p>根据codecademy的描述，在js里你能对变量完成以下操作</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs text">Create a variable with a descriptive name.<br><br>Store or update information stored in a variable.<br><br>Reference or “get” information stored in a variable.<br></code></pre></td></tr></table></figure>
-<p>分别是创建一个拥有合法的名字的变量，储存或更新变量里的值，引用或获取变量里的值<br><br>本章节将会学习三种js变量<code>var let const</code></p>
-<h2 id="Var"><a href="#Var" class="headerlink" title="Var"></a>Var</h2><p>var的基础用法</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs js"><span class="hljs-keyword">var</span> myName = <span class="hljs-string">&#x27;John Cena&#x27;</span>;<br><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(myName);<br><span class="hljs-comment">// Output: John Cena</span><br></code></pre></td></tr></table></figure>
-<p>var可以储存字符，字符串，和数字。<br><br>var是js里的关键字，myName是变量的名称，js有一种标准的变量命名方法，叫驼峰命名法，原文如下</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs text">myName is the variable’s name. Capitalizing in this way is a standard convention in JavaScript called camel casing. In camel casing you group words into one, the first word is lowercase, then every word that follows will have its first letter uppercased. (e.g. camelCaseEverything).<br></code></pre></td></tr></table></figure>
-<p><strong>js和别的语言一样，变量名称不能有关键字(keyword)</strong><br><br>别的没什么好注意的，和c like语言差不多一样。</p>
-<h2 id="Let"><a href="#Let" class="headerlink" title="Let"></a>Let</h2><p>let可以是变量的值被重新分配，如</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs js"><span class="hljs-keyword">let</span> meal = <span class="hljs-string">&#x27;Enchiladas&#x27;</span>;<br><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(meal); <span class="hljs-comment">// Output: Enchiladas</span><br>meal = <span class="hljs-string">&#x27;Burrito&#x27;</span>;<br><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(meal); <span class="hljs-comment">// Output: Burrito</span><br></code></pre></td></tr></table></figure>
-<p><strong>注意</strong>，js里当你命名了一个变量后却没有给他赋值，它会被自动赋值为undefined</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs js"><span class="hljs-keyword">let</span> price;<br><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(price); <span class="hljs-comment">// Output: undefined</span><br>price = <span class="hljs-number">350</span>;<br><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(price); <span class="hljs-comment">// Output: 350</span><br></code></pre></td></tr></table></figure>
-<h2 id="Const"><a href="#Const" class="headerlink" title="Const"></a>Const</h2><p>就像c like语言一样，const是常量<br><br>第一次被赋值以后就不可以被改变了，如果强行改变你会收到TypeError,如<br><br><code>TypeError: Assignment to constant variable</code><br><br><del>作者个人观点,js里的变量真的好怪</del></p>
-<h2 id="Mathematical-Assignment-Operators-对变量里的值进行数学运算"><a href="#Mathematical-Assignment-Operators-对变量里的值进行数学运算" class="headerlink" title="Mathematical Assignment Operators 对变量里的值进行数学运算"></a>Mathematical Assignment Operators 对变量里的值进行数学运算</h2><p>一个简单例子</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs js"><span class="hljs-keyword">let</span> w = <span class="hljs-number">4</span>;<br>w = w + <span class="hljs-number">1</span>;<br><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(w); <span class="hljs-comment">// Output: 5</span><br></code></pre></td></tr></table></figure>
-<p>另一种写法</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs js"><span class="hljs-keyword">let</span> w = <span class="hljs-number">4</span>;<br>w += <span class="hljs-number">1</span>;<br><br><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(w); <span class="hljs-comment">// Output: 5</span><br></code></pre></td></tr></table></figure>
-<p>有手就会，不解释<br><br>一个例子</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><code class="hljs js"><span class="hljs-keyword">let</span> levelUp = <span class="hljs-number">10</span>;<br><span class="hljs-keyword">let</span> powerLevel = <span class="hljs-number">9001</span>;<br><span class="hljs-keyword">let</span> multiplyMe = <span class="hljs-number">32</span>;<br><span class="hljs-keyword">let</span> quarterMe = <span class="hljs-number">1152</span>;<br><br>levelUp +=<span class="hljs-number">5</span>;<br>powerLevel -=<span class="hljs-number">100</span>;<br>multiplyMe *= <span class="hljs-number">11</span>;<br>quarterMe /=<span class="hljs-number">4</span>;<br><br><span class="hljs-comment">// These console.log() statements below will help you check the values of the variables.</span><br><span class="hljs-comment">// You do not need to edit these statements. </span><br><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;The value of levelUp:&#x27;</span>, levelUp); <br><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;The value of powerLevel:&#x27;</span>, powerLevel); <br><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;The value of multiplyMe:&#x27;</span>, multiplyMe); <br><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;The value of quarterMe:&#x27;</span>, quarterMe);<br></code></pre></td></tr></table></figure>
-<h3 id="自加自减"><a href="#自加自减" class="headerlink" title="自加自减"></a>自加自减</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs js"><span class="hljs-keyword">let</span> a = <span class="hljs-number">10</span>;<br>a++;<br><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(a); <span class="hljs-comment">// Output: 11</span><br><br><span class="hljs-keyword">let</span> b = <span class="hljs-number">20</span>;<br>b--;<br><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(b); <span class="hljs-comment">// Output: 19</span><br></code></pre></td></tr></table></figure>
-<p>没什么好说的，这里和c like语言一样</p>
-<h3 id="在输出中调用变量"><a href="#在输出中调用变量" class="headerlink" title="在输出中调用变量"></a>在输出中调用变量</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs js"><span class="hljs-keyword">let</span> favoriteAnimal=<span class="hljs-string">&#x27;bullshit&#x27;</span>;<br><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;My favorite animal:&#x27;</span> + favoriteAnimal);<br></code></pre></td></tr></table></figure>
-<h3 id="在输出中插值变量"><a href="#在输出中插值变量" class="headerlink" title="在输出中插值变量"></a>在输出中插值变量</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs js"><span class="hljs-keyword">const</span> myPet = <span class="hljs-string">&#x27;armadillo&#x27;</span>;<br><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">`I own a pet <span class="hljs-subst">$&#123;myPet&#125;</span>.`</span>);<span class="hljs-comment">//这里用的是反引号</span><br><span class="hljs-comment">// Output: I own a pet armadillo.</span><br></code></pre></td></tr></table></figure>
-<p>这种写法和调用变量没什么不一样只是增加了可读性而已<br><br><strong>如果你想要用插值写法，必须使用反引号</strong></p>
-<h1 id="Typeof"><a href="#Typeof" class="headerlink" title="Typeof"></a>Typeof</h1><p>当你想要知道某个变量的数据类型你可以使用typeof<br><br>下面是一个简单的例子</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs js"><span class="hljs-keyword">const</span> unknown1 = <span class="hljs-string">&#x27;foo&#x27;</span>;<br><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-keyword">typeof</span> unknown1); <span class="hljs-comment">// Output: string</span><br><br><span class="hljs-keyword">const</span> unknown2 = <span class="hljs-number">10</span>;<br><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-keyword">typeof</span> unknown2); <span class="hljs-comment">// Output: number</span><br><br><span class="hljs-keyword">const</span> unknown3 = <span class="hljs-literal">true</span>; <br><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-keyword">typeof</span> unknown3); <span class="hljs-comment">// Output: boolean</span><br></code></pre></td></tr></table></figure>
+                <p>codecademy上面还有几次练习和测试，只要认真学习了前面的课程，这些练习都是有手就会的，所以我没有在blog里赘述</p>
+<h1 id="ES6"><a href="#ES6" class="headerlink" title="ES6"></a>ES6</h1><p>这里附上原文。</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs text">Ever heard of the term “ES6” and wondered what it’s about? Read this article to read and find out!<br><br>You might have seen the term “ES6” or “JavaScript ES6” and wondered what it actually means. Well wonder no further, because we’re going to dive into what ES6 is and how it relates to JavaScript!<br><br>First, let’s bring in some history. JavaScript was introduced in 1995 by the company Netscape Communications as a scripting language for web designers and programmers to interact with web pages. The next year, Netscape submitted JavaScript to a standards developing organization called Ecma International to create standards for a scripting language (a type of programming language). In 1997, Ecma International released ECMA-262 which sets standards for the first version of a scripting language called ECMAScript, shortened to ES.<br><br>These new ECMAScript standards provided rules for the architecture of JavaScript features. As new programming paradigms emerged and developers sought new features, newer versions of ECMAScript provided a basis for consistency between new and old JavaScript versions.<br><br>To fully distinguish the difference between JavaScript and ECMAScript: if you want to create an app or program you can use JavaScript — if you want to create a new scripting language you can follow the guidelines in ECMAScript. So, when you see ES6 or JavaScript ES6, it means that that version of JavaScript is following the specifications in the sixth edition of ECMAScript! You might also see ES2015 instead of ES6, but both terminologies are referring to the same 6th edition of ECMAScript that was released in 2015. Take a look at the timeline below to see how JavaScript has evolved over the years:<br></code></pre></td></tr></table></figure>
+<img src="/2023/08/21/js%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B04/timeline.svg" srcset="/img/loading.gif" lazyload class="" title="timeline">
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs text">Now, you may be asking, what makes an update in 2015 still relevant today when there are more recent updates like ES7 and ES8?<br><br>Well, despite the release of newer versions, ES6 is actually the biggest update made to ECMAScript since the first edition released in 1997! Some developers even refer to ES6 as “Modern JavaScript” because of all the major additions. There were so many great features added to help JavaScript developers that include:<br><br>new keywords like let and const to declare variables<br>new function syntax using Arrow functions<br>creation of Classes<br>parameters with default values<br>promises for asynchronous actions<br>and many more!<br>Up-to-date browsers now support most of the ES6 features which allow developers to take advantage of these new additions. ES6 ultimately allows programmers to save time and write more concise code. Take for example pre-ES6 syntax for function expressions:<br></code></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs js"><span class="hljs-keyword">var</span> greeting = <span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) &#123;<br>  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;Hello World!&#x27;</span>);  <br>&#125;;<br></code></pre></td></tr></table></figure>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs text">With ES6 arrow functions, we can transform the expression above into:<br></code></pre></td></tr></table></figure>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs text">const greeting = () =&gt; console.log(&#x27;Hello World&#x27;); <br></code></pre></td></tr></table></figure>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs text">However, arrow functions are not just simply syntactical re-writes. As with other ES6 features, there are other underlying benefits and tradeoffs to consider. Nonetheless, there has been a strong adoption of ES6 in the development community. Benefits such as new ES6 syntax, make it easier to utilize a popular programming paradigm, Object Oriented Programming (OOP). With this change, developers in other languages who are used to OOP have a smoother transition into learning and using JavaScript. Another reason for the popularity of ES6 is correlated with the usage of ES6 in popular frameworks like React. So, if you want to learn the newest tools and frameworks, you will have to pick up ES6 along the way.<br><br>This being said, we shouldn’t disregard legacy code, i.e. older versions of JavaScript. In fact, there are still many projects that are built and maintained with legacy code! If you want the ability and freedom to work on any sort of JavaScript project, you should familiarize yourself with pre-ES6 and ES6 JavaScript syntax. But don’t worry, we cover both pre-ES6 and ES6 in our JavaScript course. Check it out to become a rockstar at JavaScript basics and learn fundamental programming skills!<br></code></pre></td></tr></table></figure>
+<p>大意是于2015年发布的<code>ES6</code>or<code>ES2015</code>是Netscape发布的一个重大更新，这个更新带来了很多既重要又好用的功能，以及未来可能更新<code>ES7</code>和<code>ES8</code>等<br><br>总结：没啥屁事。<br></p>
 
-<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>js与c like很不一样的一点是数字字母和布尔都能储存在var let const中，<br><br>js会自动识别他的数据类型</p>
-<h2 id="复习"><a href="#复习" class="headerlink" title="复习"></a>复习</h2><p>原文<br></p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><code class="hljs text">Variables hold reusable data in a program and associate it with a name.<br><br>Variables are stored in memory.<br><br>The var keyword is used in pre-ES6 versions of JS.<br><br>let is the preferred way to declare a variable when it can be reassigned, and const is the preferred way to declare a variable with a constant value.<br><br>Variables that have not been initialized store the primitive data type undefined.<br><br>Mathematical assignment operators make it easy to calculate a new value and assign it to the same variable.<br><br>The + operator is used to concatenate strings including string values held in variables.<br><br>In ES6, template literals use backticks ` and $&#123;&#125; to interpolate values into a string.<br><br>The typeof keyword returns the data type (as a string) of a value.<br></code></pre></td></tr></table></figure>
                 
               </div>
             
@@ -370,8 +353,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>js学习笔记3</div>
-      <div>http://example.com/2023/08/19/js学习笔记3/</div>
+      <div>js学习笔记4</div>
+      <div>http://example.com/2023/08/21/js学习笔记4/</div>
     </div>
     <div class="license-meta">
       
@@ -383,7 +366,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2023年8月19日</div>
+          <div>2023年8月21日</div>
         </div>
       
       
@@ -415,9 +398,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2023/08/20/araska-tower-nuked/" title="araska-tower-nuked">
+                      <a href="/2023/08/22/js%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B05/" title="js学习笔记5">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">araska-tower-nuked</span>
+                        <span class="hidden-mobile">js学习笔记5</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -425,8 +408,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2023/08/19/js%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B02/" title="js学习笔记2">
-                        <span class="hidden-mobile">js学习笔记2</span>
+                      <a href="/2023/08/20/araska-tower-nuked/" title="araska-tower-nuked">
+                        <span class="hidden-mobile">araska-tower-nuked</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
